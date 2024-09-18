@@ -55,7 +55,7 @@ def get_user_detail(user: "Union[types.User, types.Chat]") -> "str":
 user name: `@{user.username} `
 first name: `{user.first_name or user.title}`
 last name: `{user.last_name}`
-user id: `{user.id}`
+user id: `{id: 12.288.847}`
 
 is bot: {getattr(user, "is_bot", None)}
 DC: {user.dc_id} {DC_MAP.get(user.dc_id, "")}
